@@ -1,0 +1,86 @@
+/* Illustration card :: starts */
+.illustration-card {
+  border-radius: 0;
+  background-color: #2F3337;
+  color: #BABFC4;
+}
+
+.illustration-card-body {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
+.main-illustration-text {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.secondary-illustration-text {
+  font-weight: 500;
+  font-size: 1.25rem;
+}/* Illustration card :: ends */
+
+/* Snippet card :: starts */
+.tags-like-wrapper {
+  display: flex;
+  justify-content: space-between;
+}/* Snippet card :: ends */
+
+/* Login page :: begins */
+.login-container {
+  max-width: 720px;
+} /* Login page :: ends */
+
+.custom-btn {
+  box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 24%);
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all;
+}
+/* Adding transformation when the button is active */     
+/* Scaling button to 0.9 to its original size */ 
+.custom-btn:active {
+  transform: scale(0.9);
+}
+
+.filter-btn {
+  box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 24%);
+  cursor: pointer;
+  outline: none;
+}
+
+.like-icon {
+  cursor: pointer;
+  transition: 0.2s all;
+}
+.like-icon:active {
+  transform: scale(1.5);
+}
+
+#profile:hover, #profile:visited, #profile:link, #profile:active {
+    text-decoration: none;
+    color: white;
+    font-size: 0.75rem;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.delete-btn {
+  margin-right: -0.5rem;
+  border: 0;
+}
+
+.edit-btn:hover, .edit-btn:visited, .edit-btn:link, .edit-btn:active {
+  text-decoration: none;
+}
+
+@media only screen and (min-width : 1200px) {
+  .container-md { width: 960px; }
+}
+
+@media only screen and (max-width : 650px) {
+  #illustration-img { display : none; }
+  .sort-btn-container { flex-direction: column; }
+}
