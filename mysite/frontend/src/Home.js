@@ -174,7 +174,7 @@ class Home extends React.Component
                                 <h5 className="modal-title" id="staticBackdropLabel">Delete snippet</h5>
                             </div>
                             <div className="modal-body">
-                                Are you sure to delete this snippet with id {this.state.deleteSnippetId}?
+                                Are you sure to delete this snippet ?
                             </div>
                             <div className="modal-footer">
                                 <button type="button" className="btn btn-secondary" data-bs-dismiss="modal" 

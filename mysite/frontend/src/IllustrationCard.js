@@ -13,7 +13,7 @@ class IllustrationCard extends React.Component
                     <div className="illustration-text-wrapper">
                         <p className="main-illustration-text">Textsnap helps you organise your favourite text snippets, quotes and sayings in one single place. 
                         Associate your snippets with custom tags and browse through what others find interesting.</p>
-                        <Link className="btn btn-light" to='/signup'><span><strong>Sign up here</strong></span></Link>
+                        <a className="btn btn-light" href='/signup'><span><strong>Sign up here</strong></span></a>
                     </div>
                 </div>
                 </div>
